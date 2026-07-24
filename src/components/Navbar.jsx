@@ -32,7 +32,17 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""} ${isOpen ? "bg-[#0a0a0a]/95 backdrop-blur-xl" : ""}`}>
       <div className="flex justify-between items-center w-full">
-        <div className="text-xl md:text-2xl font-heading font-bold tracking-tight">Sumur Kumbang.</div>
+        <Link href="/" className="flex items-center gap-3 group z-50">
+          <div className="w-9 h-9 md:w-10 md:h-10 rounded-xl bg-gradient-to-br from-accent/20 to-accent/5 border border-accent/30 flex items-center justify-center text-accent group-hover:bg-accent group-hover:text-black group-hover:border-accent transition-all duration-300 shadow-[0_0_15px_rgba(202,138,4,0.15)] group-hover:shadow-[0_0_20px_rgba(202,138,4,0.4)]">
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 md:w-6 md:h-6">
+               <path d="m8 3 4 8 5-5 5 15H2L8 3z"></path>
+             </svg>
+          </div>
+          <div className="flex flex-col text-left">
+            <span className="text-lg md:text-xl font-heading font-bold tracking-tight leading-none text-white group-hover:text-accent transition-colors">Sumur Kumbang</span>
+            <span className="text-[9px] md:text-[10px] text-white/50 uppercase tracking-[0.2em] font-sans mt-1">Desa Wisata</span>
+          </div>
+        </Link>
         
         {/* Desktop Nav */}
         <ul className="hidden md:flex gap-10 list-none text-sm font-medium text-text-muted">
