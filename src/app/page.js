@@ -234,10 +234,13 @@ export default function Home() {
                     </div>
                   </div>
                   
-                  <div className="mt-8 md:mt-10 p-5 md:p-6 rounded-2xl border border-accent/20 bg-accent/5 flex flex-col md:flex-row items-center justify-between gap-4">
-                     <p className="text-white/80 font-sans text-xs md:text-sm"><strong className="text-white">Butuh Bantuan?</strong> Kunjungi Balai Desa pada jam kerja.</p>
+                  <a href="https://maps.app.goo.gl/sL99UeK8MdmgoxZU8" target="_blank" rel="noopener noreferrer" className="mt-8 md:mt-10 p-5 md:p-6 rounded-2xl border border-accent/20 bg-accent/5 flex flex-col md:flex-row items-center justify-between gap-4 hover:bg-accent/20 hover:border-accent/50 transition-all cursor-pointer group/map">
+                     <p className="text-white/80 font-sans text-xs md:text-sm">
+                       <strong className="text-white">Butuh Bantuan?</strong> Kunjungi Balai Desa pada jam kerja. 
+                       <span className="text-accent ml-1 border-b border-accent/30 group-hover/map:border-accent transition-colors font-medium">Lihat di Google Maps 📍</span>
+                     </p>
                      <span className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_10px_#22c55e] animate-pulse shrink-0 hidden md:block"></span>
-                  </div>
+                  </a>
                 </div>
              </Reveal>
           </div>
