@@ -234,13 +234,29 @@ export default function Home() {
                     </div>
                   </div>
                   
-                  <a href="https://maps.app.goo.gl/sL99UeK8MdmgoxZU8" target="_blank" rel="noopener noreferrer" className="mt-8 md:mt-10 p-5 md:p-6 rounded-2xl border border-accent/20 bg-accent/5 flex flex-col md:flex-row items-center justify-between gap-4 hover:bg-accent/20 hover:border-accent/50 transition-all cursor-pointer group/map">
-                     <p className="text-white/80 font-sans text-xs md:text-sm">
-                       <strong className="text-white">Butuh Bantuan?</strong> Kunjungi Balai Desa pada jam kerja. 
-                       <span className="text-accent ml-1 border-b border-accent/30 group-hover/map:border-accent transition-colors font-medium">Lihat di Google Maps 📍</span>
-                     </p>
-                     <span className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_10px_#22c55e] animate-pulse shrink-0 hidden md:block"></span>
-                  </a>
+                  <div className="mt-8 md:mt-10 pt-6 md:pt-8 border-t border-white/10">
+                    <a href="https://maps.app.goo.gl/sL99UeK8MdmgoxZU8" target="_blank" rel="noopener noreferrer" className="relative overflow-hidden group/btn flex flex-col md:flex-row items-center justify-between gap-6 p-5 md:p-6 rounded-[2rem] bg-gradient-to-r from-accent/10 via-white/5 to-transparent border border-accent/20 hover:border-accent/40 transition-all shadow-lg hover:shadow-[0_0_30px_rgba(202,138,4,0.15)]">
+                       
+                       <div className="relative z-10 flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-4 md:gap-5 w-full md:w-auto">
+                          <div className="w-12 h-12 md:w-14 md:h-14 shrink-0 rounded-full bg-accent text-black flex items-center justify-center text-xl md:text-2xl shadow-[0_0_15px_rgba(202,138,4,0.4)] group-hover/btn:scale-110 group-hover/btn:rotate-3 transition-transform">
+                             🗺️
+                          </div>
+                          <div>
+                            <div className="flex items-center justify-center md:justify-start gap-2 mb-1">
+                              <p className="text-white font-semibold text-base md:text-lg">Kunjungi Balai Desa</p>
+                              <span className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_10px_#22c55e] animate-pulse"></span>
+                            </div>
+                            <p className="text-white/60 font-sans text-xs md:text-sm">Bantuan & aduan langsung di jam kerja operasional.</p>
+                          </div>
+                       </div>
+                       
+                       <div className="relative z-10 w-full md:w-auto flex items-center justify-center gap-3 bg-white/5 px-6 py-3 rounded-full border border-white/10 group-hover/btn:bg-accent group-hover/btn:text-black group-hover/btn:border-accent transition-all text-xs md:text-sm text-white font-semibold">
+                         Buka Google Maps
+                         <span className="group-hover/btn:translate-x-1 transition-transform">→</span>
+                       </div>
+
+                    </a>
+                  </div>
                 </div>
              </Reveal>
           </div>
