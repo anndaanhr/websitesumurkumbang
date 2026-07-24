@@ -15,32 +15,55 @@ export default function ProfilPage() {
           <Reveal className="w-full lg:w-2/3 glass-card">
             <h2 className="text-4xl text-accent font-semibold mb-12 border-b border-white/10 pb-6">Sejarah Desa</h2>
             
-            <div className="border-l border-white/20 pl-10 relative space-y-16">
+            <div className="border-l border-white/20 pl-6 md:pl-10 relative space-y-12 md:space-y-16">
               
+              {/* Point 1 */}
               <div className="relative">
-                <div className="absolute -left-[2.85rem] top-1 w-4 h-4 bg-accent rounded-full shadow-[0_0_15px_var(--color-accent)]"></div>
-                <span className="text-white/50 font-sans text-xs font-bold tracking-[0.2em] uppercase mb-2 block">1745 - Jejak Awal</span>
-                <h3 className="text-3xl font-semibold mb-4 text-white">Kedatangan Syeh Mansyur</h3>
-                <p className="font-sans text-white/70 font-light leading-relaxed">
-                  Sejarah awal Desa Sumur Kumbang diyakini bermula sekitar tahun 1745 dengan kedatangan tokoh penyebar agama Islam bernama Syeh Maulana Mansyur. Beliau datang ke kawasan lereng Gunung Rajabasa ini dengan tujuan untuk bertapa dan mendekatkan diri kepada Sang Pencipta.
+                <div className="absolute -left-[1.85rem] md:-left-[2.85rem] top-1 w-4 h-4 bg-accent rounded-full shadow-[0_0_15px_var(--color-accent)]"></div>
+                <span className="text-white/50 font-sans text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase mb-2 block">Sekitar 1745</span>
+                <h3 className="text-2xl md:text-3xl font-semibold mb-3 text-white">Jejak Awal Syekh Mansyur</h3>
+                <p className="font-sans text-white/70 font-light text-sm md:text-base leading-relaxed">
+                  Sejarah awal Desa Sumur Kumbang bermula dari perjalanan seorang tokoh penyebar agama Islam dan adat bernama <strong>Syekh Maulana Mansyur</strong>. Beliau melakukan perjalanan di kawasan lereng Gunung Rajabasa bersama cucunya serta seorang pengawal setia bernama Ki Ajalali.
                 </p>
               </div>
               
+              {/* Point 2 */}
               <div className="relative">
-                <div className="absolute -left-[2.85rem] top-1 w-4 h-4 bg-accent rounded-full shadow-[0_0_15px_var(--color-accent)]"></div>
-                <span className="text-white/50 font-sans text-xs font-bold tracking-[0.2em] uppercase mb-2 block">Asal Usul Nama</span>
-                <h3 className="text-3xl font-semibold mb-4 text-white">Legenda Sumur Kumbang</h3>
-                <p className="font-sans text-white/70 font-light leading-relaxed">
-                  Konon, saat Syeh Mansyur singgah bersama anak/cucunya yang sedang kehausan, beliau tidak dapat menemukan sumber air. Beliau lalu menancapkan tongkatnya ke tanah. Saat dicabut, keluarlah mata air yang melimpah dari lubang tersebut dan menjadi sebuah sumur. Karena lokasi sumur itu berada di dekat rimbunan pohon kembang, kawasan ini akhirnya dikenal dengan nama <strong>Sumur Kembang</strong>, yang seiring berjalannya waktu pelafalannya berubah menjadi <strong>Sumur Kumbang</strong>.
+                <div className="absolute -left-[1.85rem] md:-left-[2.85rem] top-1 w-4 h-4 bg-accent rounded-full shadow-[0_0_15px_var(--color-accent)]"></div>
+                <span className="text-white/50 font-sans text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase mb-2 block">Keajaiban Alam</span>
+                <h3 className="text-2xl md:text-3xl font-semibold mb-3 text-white">Mata Air Keramat</h3>
+                <p className="font-sans text-white/70 font-light text-sm md:text-base leading-relaxed">
+                  Di tengah perjalanan, sang cucu merasa kehausan dan menangis karena tidak ada sumber air. Syekh Mansyur kemudian memanjatkan doa dan menancapkan tongkat pusakanya ke sebuah batu besar. Keajaiban terjadi saat tongkat itu dicabut: memancar air jernih yang terus mengalir tanpa henti. Menariknya, mata air ini diyakini tidak pernah kering meski dilanda kemarau panjang.
                 </p>
               </div>
 
+              {/* Point 3 */}
               <div className="relative">
-                <div className="absolute -left-[2.85rem] top-1 w-4 h-4 bg-accent rounded-full shadow-[0_0_15px_var(--color-accent)]"></div>
-                <span className="text-white/50 font-sans text-xs font-bold tracking-[0.2em] uppercase mb-2 block">Masa Kini</span>
-                <h3 className="text-3xl font-semibold mb-4 text-white">Desa Wisata & Budaya</h3>
-                <p className="font-sans text-white/70 font-light leading-relaxed">
-                  Kini, Desa Sumur Kumbang menjadi tempat tinggal yang rukun bagi masyarakat dari berbagai etnis, khususnya Lampung, Jawa, dan Sunda. Tradisi leluhur seperti Upacara Adat <strong>Ruwat Bumi (Peperahan)</strong> di setiap bulan Muharram terus dilestarikan sebagai wujud syukur atas hasil bumi dan kerukunan. Petilasan Syeh Mansyur juga masih dijaga dengan baik hingga saat ini sebagai destinasi wisata religi.
+                <div className="absolute -left-[1.85rem] md:-left-[2.85rem] top-1 w-4 h-4 bg-accent rounded-full shadow-[0_0_15px_var(--color-accent)]"></div>
+                <span className="text-white/50 font-sans text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase mb-2 block">Etimologi Desa</span>
+                <h3 className="text-2xl md:text-3xl font-semibold mb-3 text-white">Lahirnya Nama "Sumur Kumbang"</h3>
+                <p className="font-sans text-white/70 font-light text-sm md:text-base leading-relaxed">
+                  Di sekitar mata air jernih tersebut dahulunya tumbuh rimbunan pohon kembang (bunga) yang sangat indah. Hal ini membuat lokasi tersebut awalnya dikenal dengan sebutan <strong>Sumur Kembang</strong>. Seiring berjalannya waktu dan dialek masyarakat setempat, pelafalannya perlahan berubah menjadi <strong>Sumur Kumbang</strong> seperti yang kita kenal hari ini.
+                </p>
+              </div>
+
+              {/* Point 4 */}
+              <div className="relative">
+                <div className="absolute -left-[1.85rem] md:-left-[2.85rem] top-1 w-4 h-4 bg-accent rounded-full shadow-[0_0_15px_var(--color-accent)]"></div>
+                <span className="text-white/50 font-sans text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase mb-2 block">Perkembangan Sosio-Kultural</span>
+                <h3 className="text-2xl md:text-3xl font-semibold mb-3 text-white">Harmoni dalam Keberagaman</h3>
+                <p className="font-sans text-white/70 font-light text-sm md:text-base leading-relaxed">
+                  Kesejukan udara lereng gunung dan melimpahnya hasil alam mengundang banyak pendatang untuk menetap. Desa ini kemudian tumbuh menjadi wilayah heterogen yang dihuni secara berdampingan oleh masyarakat dari berbagai suku, utamanya suku Lampung, Sunda, dan Jawa. Mereka melebur dan membentuk tatanan masyarakat yang rukun dan gotong royong.
+                </p>
+              </div>
+
+              {/* Point 5 */}
+              <div className="relative">
+                <div className="absolute -left-[1.85rem] md:-left-[2.85rem] top-1 w-4 h-4 bg-accent rounded-full shadow-[0_0_15px_var(--color-accent)]"></div>
+                <span className="text-white/50 font-sans text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase mb-2 block">Masa Kini</span>
+                <h3 className="text-2xl md:text-3xl font-semibold mb-3 text-white">Desa Wisata Religi & Adat</h3>
+                <p className="font-sans text-white/70 font-light text-sm md:text-base leading-relaxed">
+                  Pemerintah dan warga kini bersatu melestarikan situs sejarah <strong>Petilasan Syekh Mansyur</strong> sebagai cagar budaya. Tradisi luhur pun terus dihidupkan, salah satunya upacara <strong>Ruwat Bumi (Peperahan)</strong> di setiap bulan Muharram, di mana warga berkumpul, berdoa, dan makan bersama di atas pelepah pisang sebagai wujud syukur atas hasil bumi yang melimpah.
                 </p>
               </div>
               
