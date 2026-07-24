@@ -218,7 +218,7 @@ export default function Home() {
                   
                   <div className="flex-1 space-y-4 md:space-y-6 flex flex-col justify-center">
                     <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6 p-5 md:p-6 rounded-2xl md:rounded-3xl bg-white/5 hover:bg-white/10 transition-all border border-transparent hover:border-white/10 group/card">
-                      <div className="w-14 h-14 md:w-16 md:h-16 rounded-2xl bg-gradient-to-br from-accent/40 to-accent/10 flex items-center justify-center text-2xl md:text-3xl border border-accent/20 shadow-[0_0_20px_rgba(202,138,4,0.15)] group-hover/card:scale-110 transition-transform shrink-0">🪪</div>
+                      <div className="w-14 h-14 md:w-16 md:h-16 rounded-2xl bg-gradient-to-br from-accent/40 to-accent/10 flex items-center justify-center text-2xl md:text-3xl border border-accent/20 shadow-[0_0_20px_rgba(202,138,4,0.15)] group-hover/card:scale-110 transition-transform shrink-0">📋</div>
                       <div>
                         <p className="font-semibold text-white text-lg md:text-xl mb-1 md:mb-2">Administrasi Kependudukan</p>
                         <p className="text-xs md:text-sm text-white/50 font-sans leading-relaxed">Layanan cepat pembuatan KTP, Kartu Keluarga, & Surat Pengantar.</p>
