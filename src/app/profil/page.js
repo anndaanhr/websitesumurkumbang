@@ -75,7 +75,7 @@ export default function ProfilPage() {
               <span className="text-accent text-[10px] font-sans uppercase tracking-widest font-bold block mb-2">Periode 2022 - 2029</span>
               <h2 className="text-2xl font-semibold mb-6 text-white">Pemerintahan Desa</h2>
               <div className="w-28 h-28 bg-white/5 rounded-[2rem] mx-auto mb-6 overflow-hidden border border-accent/40 backdrop-blur-md shadow-[0_0_20px_rgba(202,138,4,0.2)]">
-                <img src="/images/struktur/pakkades.png" alt="Armad - Kepala Desa Sumur Kumbang" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+                <img src="/images/struktur/kades.jpeg" alt="Armad - Kepala Desa Sumur Kumbang" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-1">ARMAD</h3>
               <p className="text-white/60 font-sans text-sm font-medium mb-6">Kepala Desa Sumur Kumbang</p>
@@ -108,7 +108,7 @@ export default function ProfilPage() {
           <Reveal className="glass-card p-6 md:p-8 text-center border-accent/40 bg-gradient-to-b from-accent/10 to-transparent flex flex-col items-center justify-center relative overflow-hidden group">
             <div className="absolute inset-0 bg-accent/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
             <div className="w-28 h-28 rounded-[2rem] overflow-hidden border-2 border-accent mb-4 shadow-[0_0_25px_rgba(202,138,4,0.3)] bg-white/5 relative z-10">
-              <img src="/images/struktur/pakkades.png" alt="Armad - Kepala Desa" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <img src="/images/struktur/kades.jpeg" alt="Armad - Kepala Desa" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
             </div>
             <span className="px-3 py-1 rounded-full bg-accent text-black font-sans font-bold text-[10px] uppercase tracking-widest mb-2 shadow-lg relative z-10">
               Kepala Desa
@@ -119,8 +119,8 @@ export default function ProfilPage() {
 
           <Reveal className="glass-card p-6 md:p-8 text-center border-blue-500/30 bg-gradient-to-b from-blue-500/10 to-transparent flex flex-col items-center justify-center relative overflow-hidden group" delay={150}>
             <div className="absolute inset-0 bg-blue-500/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-            <div className="w-24 h-24 rounded-[2rem] overflow-hidden border border-blue-400/30 mb-4 bg-blue-500/10 flex items-center justify-center text-4xl relative z-10 group-hover:scale-105 transition-transform">
-              👨‍💼
+            <div className="w-28 h-28 rounded-[2rem] overflow-hidden border-2 border-blue-400/50 mb-4 bg-white/5 relative z-10">
+              <img src="/images/struktur/sekdes.jpeg" alt="Mus Mulyadi - Sekretaris Desa" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
             </div>
             <span className="px-3 py-1 rounded-full bg-blue-600 text-white font-sans font-bold text-[10px] uppercase tracking-widest mb-2 shadow-lg relative z-10">
               Sekretaris Desa (Sekdes)
@@ -139,17 +139,26 @@ export default function ProfilPage() {
               <h3 className="text-xl font-semibold text-white">Kepala Seksi (Kasi)</h3>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="p-4 rounded-2xl bg-rose-950/30 border border-rose-500/20 hover:border-rose-400/50 transition-all text-center">
+              <div className="p-4 rounded-2xl bg-rose-950/30 border border-rose-500/20 hover:border-rose-400/50 transition-all text-center flex flex-col items-center">
+                <div className="w-16 h-16 rounded-full overflow-hidden mb-3 border-2 border-rose-500/30 bg-white/5">
+                  <img src="/images/struktur/ratna.jpeg" alt="Ratnawati" className="w-full h-full object-cover" />
+                </div>
                 <span className="text-[10px] font-sans font-bold text-rose-300 block uppercase tracking-wider mb-1">Kasi Pemerintahan</span>
-                <p className="text-base font-bold text-white">RATNAWATI</p>
+                <p className="text-sm font-bold text-white">RATNAWATI</p>
               </div>
-              <div className="p-4 rounded-2xl bg-rose-950/30 border border-rose-500/20 hover:border-rose-400/50 transition-all text-center">
+              <div className="p-4 rounded-2xl bg-rose-950/30 border border-rose-500/20 hover:border-rose-400/50 transition-all text-center flex flex-col items-center">
+                <div className="w-16 h-16 rounded-full overflow-hidden mb-3 border-2 border-rose-500/30 bg-white/5">
+                  <img src="/images/struktur/abduljaah.jpeg" alt="Duljaah" className="w-full h-full object-cover" />
+                </div>
                 <span className="text-[10px] font-sans font-bold text-rose-300 block uppercase tracking-wider mb-1">Kasi Pelayanan</span>
-                <p className="text-base font-bold text-white">DULJAAH</p>
+                <p className="text-sm font-bold text-white">DULJAAH</p>
               </div>
-              <div className="p-4 rounded-2xl bg-rose-950/30 border border-rose-500/20 hover:border-rose-400/50 transition-all text-center">
+              <div className="p-4 rounded-2xl bg-rose-950/30 border border-rose-500/20 hover:border-rose-400/50 transition-all text-center flex flex-col items-center">
+                <div className="w-16 h-16 rounded-full overflow-hidden mb-3 border-2 border-rose-500/30 bg-white/5">
+                  <img src="/images/struktur/marsih.jpeg" alt="Marsih" className="w-full h-full object-cover" />
+                </div>
                 <span className="text-[10px] font-sans font-bold text-rose-300 block uppercase tracking-wider mb-1">Kasi Kesejahteraan</span>
-                <p className="text-base font-bold text-white">MARSIH</p>
+                <p className="text-sm font-bold text-white">MARSIH</p>
               </div>
             </div>
           </Reveal>
@@ -161,17 +170,26 @@ export default function ProfilPage() {
               <h3 className="text-xl font-semibold text-white">Kepala Urusan (Kaur)</h3>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="p-4 rounded-2xl bg-indigo-950/30 border border-indigo-500/20 hover:border-indigo-400/50 transition-all text-center">
+              <div className="p-4 rounded-2xl bg-indigo-950/30 border border-indigo-500/20 hover:border-indigo-400/50 transition-all text-center flex flex-col items-center">
+                <div className="w-16 h-16 rounded-full overflow-hidden mb-3 border-2 border-indigo-500/30 bg-white/5">
+                  <img src="/images/struktur/didik.jpeg" alt="Didik Prastyawan" className="w-full h-full object-cover" />
+                </div>
                 <span className="text-[10px] font-sans font-bold text-indigo-300 block uppercase tracking-wider mb-1">Kaur Keuangan</span>
-                <p className="text-base font-bold text-white">DIDIK PRASTYAWAN</p>
+                <p className="text-sm font-bold text-white">DIDIK PRASTYAWAN</p>
               </div>
-              <div className="p-4 rounded-2xl bg-indigo-950/30 border border-indigo-500/20 hover:border-indigo-400/50 transition-all text-center">
+              <div className="p-4 rounded-2xl bg-indigo-950/30 border border-indigo-500/20 hover:border-indigo-400/50 transition-all text-center flex flex-col items-center">
+                <div className="w-16 h-16 rounded-full overflow-hidden mb-3 border-2 border-indigo-500/30 bg-white/5">
+                  <img src="/images/struktur/tb.jpeg" alt="TB. Saipudin" className="w-full h-full object-cover" />
+                </div>
                 <span className="text-[10px] font-sans font-bold text-indigo-300 block uppercase tracking-wider mb-1">Kaur Perencanaan</span>
-                <p className="text-base font-bold text-white">TB. SAIPUDIN</p>
+                <p className="text-sm font-bold text-white">TB. SAIPUDIN</p>
               </div>
-              <div className="p-4 rounded-2xl bg-indigo-950/30 border border-indigo-500/20 hover:border-indigo-400/50 transition-all text-center">
+              <div className="p-4 rounded-2xl bg-indigo-950/30 border border-indigo-500/20 hover:border-indigo-400/50 transition-all text-center flex flex-col items-center">
+                <div className="w-16 h-16 rounded-full overflow-hidden mb-3 border-2 border-indigo-500/30 bg-white/5">
+                  <img src="/images/struktur/asep.jpeg" alt="Asep Hanapi" className="w-full h-full object-cover" />
+                </div>
                 <span className="text-[10px] font-sans font-bold text-indigo-300 block uppercase tracking-wider mb-1">Kaur Umum</span>
-                <p className="text-base font-bold text-white">ASEP HANAPI</p>
+                <p className="text-sm font-bold text-white">ASEP HANAPI</p>
               </div>
             </div>
           </Reveal>
@@ -189,17 +207,26 @@ export default function ProfilPage() {
           
           {/* Kadus Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-8">
-            <div className="p-5 rounded-2xl bg-cyan-950/40 border border-cyan-500/30 hover:border-cyan-400/60 text-center relative overflow-hidden transition-all">
+            <div className="p-5 rounded-2xl bg-cyan-950/40 border border-cyan-500/30 hover:border-cyan-400/60 text-center relative overflow-hidden transition-all flex flex-col items-center">
+              <div className="w-20 h-20 rounded-full overflow-hidden mb-4 border-2 border-cyan-500/30 bg-white/5">
+                <img src="/images/struktur/rustami.jpeg" alt="Rustami" className="w-full h-full object-cover" />
+              </div>
               <span className="px-3 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 text-[10px] font-sans font-bold uppercase tracking-widest block w-fit mx-auto mb-2">Kadus 1</span>
-              <h4 className="text-xl sm:text-2xl font-bold text-white tracking-wide">RUSTAMI</h4>
+              <h4 className="text-lg sm:text-xl font-bold text-white tracking-wide">RUSTAMI</h4>
             </div>
-            <div className="p-5 rounded-2xl bg-cyan-950/40 border border-cyan-500/30 hover:border-cyan-400/60 text-center relative overflow-hidden transition-all">
+            <div className="p-5 rounded-2xl bg-cyan-950/40 border border-cyan-500/30 hover:border-cyan-400/60 text-center relative overflow-hidden transition-all flex flex-col items-center">
+              <div className="w-20 h-20 rounded-full overflow-hidden mb-4 border-2 border-cyan-500/30 bg-white/5">
+                <img src="/images/struktur/safaat.jpeg" alt="Safaat" className="w-full h-full object-cover" />
+              </div>
               <span className="px-3 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 text-[10px] font-sans font-bold uppercase tracking-widest block w-fit mx-auto mb-2">Kadus 2</span>
-              <h4 className="text-xl sm:text-2xl font-bold text-white tracking-wide">SAFAAT</h4>
+              <h4 className="text-lg sm:text-xl font-bold text-white tracking-wide">SAFAAT</h4>
             </div>
-            <div className="p-5 rounded-2xl bg-cyan-950/40 border border-cyan-500/30 hover:border-cyan-400/60 text-center relative overflow-hidden transition-all">
+            <div className="p-5 rounded-2xl bg-cyan-950/40 border border-cyan-500/30 hover:border-cyan-400/60 text-center relative overflow-hidden transition-all flex flex-col items-center">
+              <div className="w-20 h-20 rounded-full overflow-hidden mb-4 border-2 border-cyan-500/30 bg-white/5 flex items-center justify-center text-3xl opacity-50">
+                👨‍💼
+              </div>
               <span className="px-3 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 text-[10px] font-sans font-bold uppercase tracking-widest block w-fit mx-auto mb-2">Kadus 3</span>
-              <h4 className="text-xl sm:text-2xl font-bold text-white tracking-wide">M. HUJAEMI</h4>
+              <h4 className="text-lg sm:text-xl font-bold text-white tracking-wide">M. HUJAEMI</h4>
             </div>
           </div>
 
@@ -208,7 +235,7 @@ export default function ProfilPage() {
             <p className="text-xs font-sans uppercase tracking-[0.2em] text-white/50 text-center mb-6 font-semibold">Daftar Ketua Rukun Tetangga (RT 01 - RT 08)</p>
             <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3">
               {[
-                { rt: "RT 1", nama: "SAMAN" },
+                { rt: "RT 1", nama: "JUMRONI SAPRI" },
                 { rt: "RT 2", nama: "ABDUL HAMID" },
                 { rt: "RT 3", nama: "HAPIPI" },
                 { rt: "RT 4", nama: "SARWITA" },
