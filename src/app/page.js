@@ -50,7 +50,7 @@ export default function Home() {
                 <div className="flex flex-col gap-3 md:gap-4 pt-6 md:pt-12">
                   <div className="h-[60%] rounded-[1.5rem] md:rounded-[2.5rem] overflow-hidden border border-white/10 shadow-2xl group relative bg-white/5">
                     <img src="/images/wisata/ruwatbumi/ruwatbumi1.jpg" alt="Budaya Ruwat Bumi" className={`absolute inset-0 w-full h-full object-cover transition-all duration-[2s] ${activeCulture === 'ruwat' ? 'opacity-100 scale-100 group-hover:scale-110' : 'opacity-0 scale-95'}`} />
-                    <img src="/images/background/gapuradesa.jpeg" alt="Gotong Royong" className={`absolute inset-0 w-full h-full object-cover transition-all duration-[2s] ${activeCulture === 'gotong' ? 'opacity-100 scale-100 group-hover:scale-110' : 'opacity-0 scale-95'}`} />
+                    <img src="/images/wisata/gotongroyong/gotongroyong1.jpeg" alt="Gotong Royong" className={`absolute inset-0 w-full h-full object-cover transition-all duration-[2s] ${activeCulture === 'gotong' ? 'opacity-100 scale-100 group-hover:scale-110' : 'opacity-0 scale-95'}`} />
                   </div>
                   <div className="h-[40%] rounded-[1.5rem] md:rounded-[2.5rem] overflow-hidden border border-accent/20 shadow-2xl bg-accent/5 backdrop-blur-sm flex items-center justify-center p-4 md:p-8 text-center relative">
                      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-accent/10 to-transparent"></div>
@@ -75,7 +75,7 @@ export default function Home() {
                   </div>
                   <div className="h-[70%] rounded-[1.5rem] md:rounded-[2.5rem] overflow-hidden border border-white/10 shadow-2xl group relative bg-white/5">
                     <img src="/images/wisata/ruwatbumi/ruwatbumi2.jpg" alt="Tradisi Ruwat Bumi" className={`absolute inset-0 w-full h-full object-cover transition-all duration-[2s] ${activeCulture === 'ruwat' ? 'opacity-100 scale-100 group-hover:scale-110' : 'opacity-0 scale-95'}`} />
-                    <img src="/images/wisata/ruwatbumi/ruwatbumi3.jpg" alt="Tradisi Gotong Royong" className={`absolute inset-0 w-full h-full object-cover transition-all duration-[2s] ${activeCulture === 'gotong' ? 'opacity-100 scale-100 group-hover:scale-110' : 'opacity-0 scale-95'}`} />
+                    <img src="/images/wisata/gotongroyong/gotongroyong2.jpeg" alt="Tradisi Gotong Royong" className={`absolute inset-0 w-full h-full object-cover transition-all duration-[2s] ${activeCulture === 'gotong' ? 'opacity-100 scale-100 group-hover:scale-110' : 'opacity-0 scale-95'}`} />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                   </div>
                 </div>
