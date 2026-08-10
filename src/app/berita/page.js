@@ -22,7 +22,7 @@ export default function BeritaPage() {
           <Reveal delay={200}>
             {/* Widget Elfsight Instagram Feed */}
             <div className="w-full min-h-[500px] bg-white/5 border border-white/10 rounded-[2rem] p-4 md:p-8 overflow-hidden">
-              <div className="elfsight-app-e998e029-f8db-4e03-bca5-7125e9ba336b" data-elfsight-app-lazy></div>
+              <div className="elfsight-app-d05c844f-2837-4581-9ce9-2f8a2a6795d5" data-elfsight-app-lazy></div>
             </div>
           </Reveal>
 
