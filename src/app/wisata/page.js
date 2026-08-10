@@ -46,38 +46,7 @@ export default function WisataPage() {
             </Reveal>
           </div>
 
-          {/* Destinasi 2: Basecamp Pendakian */}
-          <div className="flex flex-col lg:flex-row-reverse items-center gap-16">
-            <Reveal className="w-full lg:w-1/2 glass-card relative overflow-hidden group">
-              <div className="absolute top-0 right-0 p-8 opacity-10 text-8xl transform group-hover:-rotate-12 transition-transform duration-700">⛰️</div>
-              <div className="relative z-10">
-                <div className="inline-block px-4 py-1 glass-panel rounded-full text-[10px] font-sans font-bold tracking-[0.2em] text-accent mb-6 border-white/20">
-                  WISATA ALAM & PETUALANGAN
-                </div>
-                <h2 className="text-4xl font-semibold mb-4 text-white">Gunung Rajabasa</h2>
-                <p className="font-sans text-white/70 font-light leading-relaxed mb-8">
-                  Bagi para pencinta alam, Desa Sumur Kumbang menyediakan jalur pendakian resmi menuju puncak Gunung Rajabasa. Dilengkapi dengan fasilitas basecamp, pemandu lokal yang berpengalaman, dan sistem integrasi keamanan bagi para pendaki.
-                </p>
-                
-                <Link href="/pendakian" className="btn btn-primary inline-flex">
-                  Lihat Info Pendakian
-                </Link>
-              </div>
-            </Reveal>
-            
-            <Reveal className="w-full lg:w-1/2" delay={200}>
-               <div className="grid grid-cols-2 gap-4">
-                  <div className="col-span-2 rounded-[2rem] overflow-hidden border border-white/10 aspect-video shadow-2xl relative group">
-                     <img src="/images/wisata/pendakian/gnrajabasa1.jpg" alt="Gunung Rajabasa Utama" className="w-full h-full object-cover hover:scale-110 transition-all duration-[2s]" />
-                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none"></div>
-                  </div>
-                  <div className="col-span-2 rounded-[1.5rem] overflow-hidden border border-white/10 aspect-[21/9] shadow-xl relative group">
-                     <img src="/images/wisata/pendakian/gnrajabasa2.jpg" alt="Gunung Rajabasa Jalur" className="w-full h-full object-cover hover:scale-110 transition-all duration-[2s]" />
-                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none"></div>
-                  </div>
-               </div>
-            </Reveal>
-          </div>
+
 
           {/* Destinasi 3: Petilasan Syeh Mansyur */}
           <div className="flex flex-col lg:flex-row items-center gap-16">

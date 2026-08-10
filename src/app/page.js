@@ -144,7 +144,7 @@ export default function Home() {
                   
                   <h3 className="text-4xl md:text-7xl font-bold text-white mb-4 md:mb-6 tracking-tighter leading-tight">Jelajahi <br className="hidden md:block"/><span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/50">Wisata Desa</span></h3>
                   <p className="font-sans text-white/80 font-light text-sm md:text-xl leading-relaxed mb-8 md:mb-12 max-w-xl mx-auto md:mx-0">
-                    Saksikan pesona lanskap Teropong Kota Kalianda, taklukkan puncak Gunung Rajabasa, hingga napak tilas sejarah di Petilasan Syeh Mansyur.
+                    Saksikan pesona lanskap Teropong Kota Kalianda, lestarikan budaya Pencak Silat, hingga napak tilas sejarah di Petilasan Syeh Mansyur.
                   </p>
                   
                   <Link href="/wisata" className="btn bg-white text-black hover:bg-accent border-0 rounded-2xl px-6 md:px-10 py-4 md:py-5 font-bold flex items-center justify-center gap-3 md:gap-4 transition-all hover:scale-105 w-full md:w-fit shadow-[0_0_40px_rgba(255,255,255,0.2)] hover:shadow-[0_0_40px_rgba(202,138,4,0.4)]">
@@ -155,11 +155,10 @@ export default function Home() {
                 {/* Floating Interactive Image Cards on the Right */}
                 <div className="relative z-10 p-10 md:p-16 w-full md:w-5/12 hidden md:flex items-center justify-center">
                   <div className="relative w-full h-[450px]">
-                    {/* Card 1 */}
                     <div className="absolute top-4 right-4 w-[70%] h-64 rounded-3xl overflow-hidden border-4 border-white/10 shadow-[0_20px_40px_rgba(0,0,0,0.8)] rotate-6 hover:rotate-0 hover:scale-110 hover:z-30 hover:border-accent/50 transition-all duration-500 cursor-pointer group/card1">
-                       <img src="/images/wisata/pendakian/gnrajabasa1.jpg" className="w-full h-full object-cover group-hover/card1:scale-110 transition-transform duration-700" />
+                       <img src="/images/wisata/pencaksilat/ttdkh.jpg" className="w-full h-full object-cover group-hover/card1:scale-110 transition-transform duration-700" />
                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover/card1:opacity-100 transition-opacity flex items-end p-4">
-                          <p className="text-white font-bold tracking-wide">Gunung Rajabasa</p>
+                          <p className="text-white font-bold tracking-wide">Pencak Silat TTKDH</p>
                        </div>
                     </div>
                     {/* Card 2 */}

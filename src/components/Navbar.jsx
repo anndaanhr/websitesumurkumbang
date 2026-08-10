@@ -19,8 +19,7 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Sembunyikan Navbar di halaman live tracking
-  if (pathname === "/pendakian/tracker") return null;
+
 
   const navLinks = [
     { name: "Beranda", path: "/" },

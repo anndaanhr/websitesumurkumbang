@@ -5,8 +5,7 @@ import { usePathname } from "next/navigation";
 export default function Footer() {
   const pathname = usePathname();
 
-  // Sembunyikan Footer di halaman live tracking
-  if (pathname === "/pendakian/tracker") return null;
+
 
   return (
     <footer className="mt-32 py-10 md:py-12 border-t border-white/10 glass-panel relative z-10">
