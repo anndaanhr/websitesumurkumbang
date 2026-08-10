@@ -34,10 +34,10 @@ export default function WisataPage() {
             <Reveal className="w-full lg:w-1/2" delay={200}>
                <div className="grid grid-cols-2 gap-4">
                   <div className="col-span-2 rounded-[2rem] overflow-hidden border border-white/10 aspect-video shadow-2xl">
-                     <img src="/images/images/hero/teropong-placeholder.jpg" alt="Teropong Kota Utama" className="w-full h-full object-cover hover:scale-110 transition-all duration-[2s]" />
+                     <img src="/images/wisata/teropongkota/teropongkota1.jpg" alt="Teropong Kota Utama" className="w-full h-full object-cover hover:scale-110 transition-all duration-[2s]" />
                   </div>
                   <div className="rounded-[1.5rem] overflow-hidden border border-white/10 aspect-square shadow-xl">
-                     <img src="/images/wisata/teropongkota/teropongkota1.jpg" alt="Fasilitas Teropong Kota" className="w-full h-full object-cover hover:scale-110 transition-all duration-[2s]" />
+                     <img src="/images/wisata/teropongkota/teropongkota2.jpg" alt="Fasilitas Teropong Kota" className="w-full h-full object-cover hover:scale-110 transition-all duration-[2s]" />
                   </div>
                   <div className="rounded-[1.5rem] overflow-hidden border border-white/10 aspect-square shadow-xl">
                      <img src="/images/wisata/teropongkota/teropongkota3.jpg" alt="Fasilitas Teropong Kota" className="w-full h-full object-cover hover:scale-110 transition-all duration-[2s]" />
@@ -125,7 +125,7 @@ export default function WisataPage() {
             
             <Reveal className="w-full lg:w-1/2" delay={200}>
               <div className="rounded-[2rem] overflow-hidden border border-white/10 aspect-[4/3] shadow-2xl relative group">
-                 <img src="/images/background/backgriundbaru.jpeg" alt="Pencak Silat TTKDH" className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 group-hover:scale-110 transition-all duration-[2s]" />
+                 <img src="/images/wisata/pencaksilat/ttdkh.jpg" alt="Pencak Silat TTKDH" className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 group-hover:scale-110 transition-all duration-[2s]" />
                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none"></div>
               </div>
             </Reveal>

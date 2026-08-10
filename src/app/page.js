@@ -131,7 +131,7 @@ export default function Home() {
              <Reveal className="w-full rounded-[2rem] md:rounded-[3.5rem] overflow-hidden relative border border-white/10 shadow-[0_30px_60px_rgba(0,0,0,0.8)] flex flex-col md:flex-row min-h-[450px] md:min-h-[650px] group">
                 {/* Massive Parallax Background */}
                 <div className="absolute inset-0">
-                  <img src="/images/wisata/teropongkota/teropong1.jpg" alt="Wisata" className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-[10%] group-hover:scale-105 transition-transform duration-[5s]" />
+                  <img src="/images/wisata/teropongkota/teropongkota1.jpg" alt="Wisata" className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-[10%] group-hover:scale-105 transition-transform duration-[5s]" />
                   <div className="absolute inset-0 bg-gradient-to-r from-[#050914] via-[#050914]/90 to-[#050914]/20"></div>
                   <div className="absolute inset-0 bg-gradient-to-t from-[#050914] via-transparent to-transparent"></div>
                 </div>
