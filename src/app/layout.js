@@ -9,8 +9,26 @@ const outfit = Outfit({ subsets: ["latin"], variable: "--font-heading" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif", weight: ["400", "600", "700", "800"], style: ["normal", "italic"] });
 
 export const metadata = {
-  title: "Desa Wisata Sumur Kumbang",
-  description: "Portal resmi Desa Sumur Kumbang, pesona alam Gunung Rajabasa dan kearifan lokal.",
+  title: "Desa Wisata Sumur Kumbang | Pesona Alam & Kearifan Lokal",
+  description: "Website resmi Desa Wisata Sumur Kumbang, Kalianda, Lampung Selatan. Jelajahi keindahan alam Gunung Rajabasa, sejarah, dan budaya lokal.",
+  keywords: ["Desa Sumur Kumbang", "Wisata Sumur Kumbang", "Kalianda", "Lampung Selatan", "Gunung Rajabasa", "Desa Wisata", "Teropong Kota Kalianda", "Pencak Silat TTKDH", "Pemerintahan Desa"],
+  authors: [{ name: "Desa Sumur Kumbang" }],
+  openGraph: {
+    title: "Desa Wisata Sumur Kumbang",
+    description: "Portal resmi Desa Wisata Sumur Kumbang, Kalianda, Lampung Selatan.",
+    url: "https://sumurkumbang.my.id",
+    siteName: "Desa Sumur Kumbang",
+    images: [
+      {
+        url: "/images/background/gapuradesa.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Gapura Desa Sumur Kumbang",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
