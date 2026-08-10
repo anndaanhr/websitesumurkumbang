@@ -32,7 +32,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? "scrolled" : ""} ${isOpen ? "bg-[#0a0a0a]/95 backdrop-blur-xl" : ""}`}>
       <div className="flex justify-between items-center w-full">
         <Link href="/" className="flex items-center gap-3 group z-50">
-          <div className="w-9 h-9 md:w-10 md:h-10 rounded-full overflow-hidden bg-white border border-accent/30 flex items-center justify-center transition-all duration-300 shadow-[0_0_15px_rgba(202,138,4,0.15)] group-hover:shadow-[0_0_20px_rgba(202,138,4,0.4)] shrink-0 p-0.5">
+          <div className="w-9 h-9 md:w-10 md:h-10 rounded-full overflow-hidden flex items-center justify-center transition-all duration-300 shadow-[0_0_15px_rgba(255,255,255,0.1)] group-hover:shadow-[0_0_20px_rgba(202,138,4,0.4)] shrink-0">
              <img src="/images/images/icons/lamsel.jpg" alt="Logo Lamsel" className="w-full h-full object-contain rounded-full" />
           </div>
           <div className="flex flex-col text-left">
