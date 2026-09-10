@@ -1,3 +1,5 @@
+"use client";
+
 import PageHeader from "@/components/PageHeader";
 import Reveal from "@/components/Reveal";
 import Script from "next/script";
@@ -26,12 +28,9 @@ export default function BeritaPage() {
                   <div className="w-20 h-20 md:w-24 md:h-24 rounded-full p-[3px] bg-gradient-to-tr from-amber-400 via-rose-500 to-purple-600 shadow-[0_0_25px_rgba(225,48,108,0.4)] shrink-0">
                     <div className="w-full h-full rounded-full bg-[#050914] p-1 flex items-center justify-center overflow-hidden">
                       <img 
-                        src="/images/footer/logolamsel.png" 
+                        src="/images/images/icons/logolamsel.png" 
                         alt="Logo Desa Sumur Kumbang" 
-                        className="w-full h-full object-contain p-1"
-                        onError={(e) => {
-                          e.target.style.display = 'none';
-                        }}
+                        className="w-full h-full object-contain p-1 rounded-full"
                       />
                     </div>
                   </div>
