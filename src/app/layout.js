@@ -29,6 +29,11 @@ export const metadata = {
     locale: "id_ID",
     type: "website",
   },
+  icons: {
+    icon: "/images/images/icons/logolamsel.png",
+    shortcut: "/images/images/icons/logolamsel.png",
+    apple: "/images/images/icons/logolamsel.png",
+  },
 };
 
 export default function RootLayout({ children }) {
